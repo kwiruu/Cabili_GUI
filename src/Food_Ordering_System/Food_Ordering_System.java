@@ -58,7 +58,7 @@ public class Food_Ordering_System extends JFrame{
                 tot = (float) (tot - (tot * 0.15));
             }
 
-            JOptionPane.showMessageDialog(a, "Total price is Php " + tot);
+            JOptionPane.showMessageDialog(a, "Total price is Php " + String.format("%.2f", tot));
         });
     }
 
